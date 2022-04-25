@@ -60,7 +60,7 @@ const Datasources = ({
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                   <p className="text-sm mb-0">
-                    From ____ we found information about _____. We used this data for _____ etc etc etc (TO FILL IN)
+                    From the CryptoPunks CSV, we found information about the distribution of NFT holders for the project. We used this data to try to learn more about how uneven the distribution is for the top 100 holders of the project.
                       </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
@@ -73,7 +73,7 @@ const Datasources = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                   <p className="text-sm mb-0">
-                    From ____ we found information about _____. We used this data for _____ etc etc etc (TO FILL IN)
+                    From the BAYC CSV, we found information again about the top 1000 holders of the project. We then used a Poission distribution to simulate the missing data based on the known total number of holders and total NFTs.
                       </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
@@ -86,7 +86,7 @@ const Datasources = ({
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
                   <p className="text-sm mb-0">
-                    From ____ we found information about _____. We used this data for _____ etc etc etc (TO FILL IN)
+                  From the MoonBirds CSV, we found information again about the top 1000 holders of the project. We then used a Poission distribution to simulate the missing data based on the known total number of holders and total NFTs.
                       </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">

@@ -6,9 +6,12 @@ import Button from '../elements/Button';
 import Image1 from './ex1.jpg';
 import Image2 from './ex2.jpg';
 import Image3 from './ex3.jpg';
+<<<<<<< HEAD
 import Image11 from './BATop5.jpg';
 import Image22 from './CPTop5.jpg';
 import Image33 from './MBTop5.jpg';
+=======
+>>>>>>> 5b7347084fd7558c1ea34f26e5c7aa3c931f0472
 import '../../App.css'
 import SectionHeader from './partials/SectionHeader';
 
@@ -52,7 +55,7 @@ const Intro = ({
   );
   const sectionHeader = {
     title: 'Digging Deeper into NFTs ',
-    paragraph: 'NFTs are a very popular use case of smart contracts. Thus, we find it important to learn more about the the holders of certain “top” NFT projects for the Ethereum network.'
+    paragraph: 'NFTs are a very popular use case of smart contracts. Many argue that NFTs provide a "decentralized" and "equalized" way of investing into a project. However, these projects often end up with a few individuals who own a large percentage of the project.'
   };
 
 
@@ -90,7 +93,7 @@ const Intro = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="3000">
-              NFTs are a very popular use case of smart contracts. Thus, we find it important to learn more about the the holders of certain “top” NFT projects for the Ethereum network.
+              NFTs are a very popular use case of smart contracts. Many argue that NFTs provide a "decentralized" and "equalized" way of investing into a project. However, these projects often end up with a few individuals who own a large percentage of the project. We wanted to investigate the scale of distribution inequality among top NFT projects.
                 </p>
             </div>
           </div>
@@ -106,7 +109,11 @@ const Intro = ({
             </h4>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+<<<<<<< HEAD
               We wanted to study some of the most iconic NFTs so we chose the Bored Ape Yacht Club, CryptoPunks, and Moonbirds collections. Each of these rank in the top 10 of NFT collections by sales volume
+=======
+              We wanted to study some of the most iconic NFTs so we chose the Bored Ape Yacht Club, CryptoPunks, and MoonBirds collections. Each of these rank in the top 10 of NFT collections by sales volume
+>>>>>>> 5b7347084fd7558c1ea34f26e5c7aa3c931f0472
                 </p>
       
             </div>
@@ -132,7 +139,11 @@ const Intro = ({
           <br />
 
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+<<<<<<< HEAD
            <p>Moonbirds and its Top Holders</p>
+=======
+           <p>MoonBirds</p>
+>>>>>>> 5b7347084fd7558c1ea34f26e5c7aa3c931f0472
            <img src={Image3} className="NFTImage"/>
            <br></br>
            <img src={Image33} className="NFTImage" />
