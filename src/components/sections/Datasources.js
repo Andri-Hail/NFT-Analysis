@@ -64,7 +64,7 @@ const Datasources = ({
                       </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
-                    <a href="#0">Add link to data here</a>
+                    <a href="#0">"https://etherscan.io/token/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb#balances"</a>
                   </span>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const Datasources = ({
                       </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
-                    <a href="#0">Add link to data here</a>
+                    <a href="#0">"https://etherscan.io/token/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d#balances"</a>
                   </span>
                 </div>
               </div>
@@ -90,7 +90,7 @@ const Datasources = ({
                       </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
-                    <a href="#0">Add link to data here</a>
+                    <a href="#0">"https://etherscan.io/token/0x23581767a106ae21c074b2276D25e5C3e136a68b#balances"</a>
                   </span>
                 </div>
               </div>
