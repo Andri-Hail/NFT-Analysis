@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import LorenzImage from '../../assets/images/lorenz.jpg'
+import GiniImage from '../../assets/images/gini_inequality.jpg'
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -51,7 +53,7 @@ const Conclusion = ({
 
   const sectionHeader = {
     title: 'Our Conclusion',
-    paragraph: 'Write about our results here'
+    paragraph: 'Some final thoughts...'
   };
 
   return (
@@ -68,10 +70,11 @@ const Conclusion = ({
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 
                 <h3 className="mt-0 mb-12">
-                  Do we have more to write abour our conclusion?
+                  Which NFT project that we researched is the most unevenly distributed?
                   </h3>
                 <p className="m-0">
-                 If so we can write about it here
+                  <li>Based on the highest Gini coefficient of .607 for CryptoPunks, we conclude that this project has the most uneven distribution of NFTs when compared to BAYC and MoonBirds.</li>
+                  <li>All the Gini coefficients show some sort of inequality (scale from 0 to 1)</li>
                   </p>
               </div>
               <div className={
@@ -81,7 +84,7 @@ const Conclusion = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={''}
+                  src={LorenzImage}
                   alt="Add a picture here if we want"
                   width={528}
                   height={396} />
@@ -92,10 +95,11 @@ const Conclusion = ({
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 
                 <h3 className="mt-0 mb-12">
-                  Do we have more to write abour our conclusion?
+                  How do these Gini coefficients compare to income inequality in the US?
                   </h3>
                 <p className="m-0">
-                 If so we can write about it here
+                 <li>All three of these projects actually maintain a higher Gini coefficient than the current Gini coefficient for the United States income distribution (.411).</li>
+                 <li>Although we cannot conclude that these NFTs projects are more unequally distributed than income in the United States, it is important to recognize the scale of the coefficient relative to its other use cases.</li>
                   </p>
               </div>
               <div className={
@@ -105,7 +109,7 @@ const Conclusion = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={''}
+                  src={GiniImage}
                   alt="Add a picture here if we want"
                   width={528}
                   height={396} />
