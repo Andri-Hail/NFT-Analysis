@@ -3,6 +3,10 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import CryptoPunkImage from '../../assets/images/cryptopunk_dist.jpg'
+import ApesImage from '../../assets/images/bayc_dist.jpg'
+import MoonBirdsImage from '../../assets/images/moonbirds_dist.jpg'
+import './EDA.css'
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -51,7 +55,7 @@ const EDA = ({
 
   const sectionHeader = {
     title: 'EDA',
-    paragraph: 'Description of EDA'
+    paragraph: 'We will create a simple visualization to compare what percentage the top 100 holders of each NFT project own in comparison to the rest of the holders of the project.'
   };
 
   return (
@@ -62,11 +66,25 @@ const EDA = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+          <div class="row">
+            <div class="column">
+              <img src={CryptoPunkImage} alt="error"/>
+            </div>
+          <div class="column">
+              <img src={ApesImage} alt="error"/>
+          </div>
+          <div class="column">
+            <img src={MoonBirdsImage} alt="error"/>
+          </div>
+          </div>
           <div className={splitClasses}>
 
-            <p>PUT EDA HERE</p>
+            <p>We initially organized the CSV file of all holders, then separated it based on the top 100 holders in terms of number of NFTs owned.</p>
 
-            
+            <titile>Initial Thoughts:</titile>
+            <li>CryptoPunks is quite unevenly distributed, with 45% of all CryptoPunks owned by 100 wallets (about 3% of all holders). </li>
+            <li>BAYC: Top 100 own 18.1% (makes up only 1.5% of all holders)</li>
+            <li>MoonBirds: Top 100 own 13.1% (makes up only 1.5% of all holders)</li>
 
           </div>
         </div>

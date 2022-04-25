@@ -3,6 +3,9 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import CPLorenz from '../../assets/images/lorenz_cryptopunks.jpg'
+import BAYCLorenz from '../../assets/images/lorenz_bayc.jpg'
+import MoonbirdsLorenz from '../../assets/images/lorenz_moonbird.jpg'
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -45,7 +48,7 @@ const Graphs = ({
 
   const sectionHeader = {
     title: 'Visualized Data',
-    paragraph: 'We can talk about some overall trends here'
+    paragraph: 'In order to create a better comparison of the inequality of distribution in these project, we shall generate a Lorenz curve and consequently a Gini coefficient as well to compare wealth inequality among projects.'
   };
 
   return (
@@ -65,10 +68,11 @@ const Graphs = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Graph 1
+                    Distribution Inequality Graph for CryptoPunks
+                    <img src={CPLorenz} alt="error"/>
                     </h4>
                   <p className="m-0 text-sm">
-                    Description
+                    Gini Coefficient: .607
                     </p>
                 </div>
               </div>
@@ -81,10 +85,11 @@ const Graphs = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Graph 2
+                    Distribution Inequality Graph for BAYC
+                    <img src={BAYCLorenz} alt="error"/>
                     </h4>
                   <p className="m-0 text-sm">
-                    Description
+                    Gini Coefficient: .514
                     </p>
                 </div>
               </div>
@@ -96,30 +101,16 @@ const Graphs = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Graph 3
+                    Distribution Inequality Graph for MoonBirds
+                    <img src={MoonbirdsLorenz} alt="error"/>
                     </h4>
                   <p className="m-0 text-sm">
-                    Description
+                    Gini Coefficient: .481
                     </p>
                 </div>
               </div>
             </div>
             <br></br>
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Graph 4
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Description
-                    </p>
-                </div>
-              </div>
-            </div>
 
            
 
