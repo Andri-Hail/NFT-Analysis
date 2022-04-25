@@ -55,7 +55,7 @@ const EDA = ({
 
   const sectionHeader = {
     title: 'EDA',
-    paragraph: 'We will create a simple visualization to compare what percentage the top 100 holders of each NFT project own in comparison to the rest of the holders of the project.'
+    paragraph: 'We created a simple visualization to compare what percentage the top 100 holders of each NFT project own in comparison to the rest of the holders of the project.'
   };
 
   return (
@@ -77,6 +77,10 @@ const EDA = ({
             <img src={MoonBirdsImage} alt="error"/>
           </div>
           </div>
+          <br />
+          <br />
+          <br />
+
           <div className={splitClasses}>
 
             <p>We initially organized the CSV file of all holders, then separated it based on the top 100 holders in terms of number of NFTs owned.</p>

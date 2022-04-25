@@ -6,8 +6,10 @@ import Button from '../elements/Button';
 import Image1 from './ex1.jpg';
 import Image2 from './ex2.jpg';
 import Image3 from './ex3.jpg';
+import Image11 from './BATop5.jpg';
+import Image22 from './CPTop5.jpg';
+import Image33 from './MBTop5.jpg';
 import '../../App.css'
-import SectionHeader from './partials/SectionHeader';
 
 
 
@@ -112,20 +114,27 @@ const Intro = ({
 
 
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-           <p>Bored Ape Yacht Club</p>
+           <p>Bored Ape Yacht Club and its Top Holders</p>
            <img src={Image1} className="NFTImage" />
+           <br></br>
+           <img src={Image11} className="NFTImage" />
+
           </div>
           <br />
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-           <p>CryptoPunks</p>
+           <p>CryptoPunks and its Top Holders</p>
            <img src={Image2} className="NFTImage"/>
+           <br></br>
+           <img src={Image22} className="NFTImage" />
+
           </div>
           <br />
 
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-           <p>MoonBirds</p>
+           <p>Moonbirds and its Top Holders</p>
            <img src={Image3} className="NFTImage"/>
-
+           <br></br>
+           <img src={Image33} className="NFTImage" />
           </div>
           
         </div>

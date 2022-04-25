@@ -48,7 +48,7 @@ const Graphs = ({
 
   const sectionHeader = {
     title: 'Visualized Data',
-    paragraph: 'In order to create a better comparison of the inequality of distribution in these project, we shall generate a Lorenz curve and consequently a Gini coefficient as well to compare wealth inequality among projects.'
+    paragraph: 'In order to create a better comparison of the inequality of distribution in these project, we generated a Lorenz curve and consequently a Gini coefficient to compare wealth inequality among projects.'
   };
 
   return (
